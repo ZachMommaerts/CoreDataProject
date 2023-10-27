@@ -14,6 +14,10 @@
 		418075292AEC30D4003A062B /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418075282AEC30D4003A062B /* DataController.swift */; };
 		4180752C2AEC315E003A062B /* CoreDataProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4180752A2AEC315E003A062B /* CoreDataProject.xcdatamodeld */; };
 		418075302AEC36A4003A062B /* SelfExplainedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4180752F2AEC36A4003A062B /* SelfExplainedView.swift */; };
+		418075322AEC3C14003A062B /* NSManagedObjectSubclassesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418075312AEC3C14003A062B /* NSManagedObjectSubclassesView.swift */; };
+		418075352AEC3D82003A062B /* Movie+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418075332AEC3D82003A062B /* Movie+CoreDataClass.swift */; };
+		418075362AEC3D82003A062B /* Movie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418075342AEC3D82003A062B /* Movie+CoreDataProperties.swift */; };
+		4180753A2AEC4151003A062B /* ConditionalNSManagedObjectContextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418075392AEC4151003A062B /* ConditionalNSManagedObjectContextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +29,10 @@
 		418075282AEC30D4003A062B /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		4180752B2AEC315E003A062B /* CoreDataProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataProject.xcdatamodel; sourceTree = "<group>"; };
 		4180752F2AEC36A4003A062B /* SelfExplainedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfExplainedView.swift; sourceTree = "<group>"; };
+		418075312AEC3C14003A062B /* NSManagedObjectSubclassesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSManagedObjectSubclassesView.swift; sourceTree = "<group>"; };
+		418075332AEC3D82003A062B /* Movie+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataClass.swift"; sourceTree = "<group>"; };
+		418075342AEC3D82003A062B /* Movie+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		418075392AEC4151003A062B /* ConditionalNSManagedObjectContextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalNSManagedObjectContextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,8 @@
 				4180751A2AEC3058003A062B /* CoreDataProjectApp.swift */,
 				4180751C2AEC3058003A062B /* ContentView.swift */,
 				4180752F2AEC36A4003A062B /* SelfExplainedView.swift */,
+				418075382AEC4024003A062B /* NSManagedObject */,
+				418075392AEC4151003A062B /* ConditionalNSManagedObjectContextView.swift */,
 				418075282AEC30D4003A062B /* DataController.swift */,
 				4180752A2AEC315E003A062B /* CoreDataProject.xcdatamodeld */,
 				4180751E2AEC305B003A062B /* Assets.xcassets */,
@@ -74,6 +84,16 @@
 				418075212AEC305B003A062B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		418075382AEC4024003A062B /* NSManagedObject */ = {
+			isa = PBXGroup;
+			children = (
+				418075312AEC3C14003A062B /* NSManagedObjectSubclassesView.swift */,
+				418075332AEC3D82003A062B /* Movie+CoreDataClass.swift */,
+				418075342AEC3D82003A062B /* Movie+CoreDataProperties.swift */,
+			);
+			path = NSManagedObject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,8 +166,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				418075352AEC3D82003A062B /* Movie+CoreDataClass.swift in Sources */,
 				4180751D2AEC3058003A062B /* ContentView.swift in Sources */,
 				418075302AEC36A4003A062B /* SelfExplainedView.swift in Sources */,
+				418075322AEC3C14003A062B /* NSManagedObjectSubclassesView.swift in Sources */,
+				418075362AEC3D82003A062B /* Movie+CoreDataProperties.swift in Sources */,
+				4180753A2AEC4151003A062B /* ConditionalNSManagedObjectContextView.swift in Sources */,
 				418075292AEC30D4003A062B /* DataController.swift in Sources */,
 				4180752C2AEC315E003A062B /* CoreDataProject.xcdatamodeld in Sources */,
 				4180751B2AEC3058003A062B /* CoreDataProjectApp.swift in Sources */,

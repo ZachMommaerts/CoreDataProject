@@ -9,19 +9,31 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Section {
-                NavigationLink {
-                    SelfExplainedView()
-                } label: {
-                    Text("Self Explained View")
+        NavigationView {
+            VStack {
+                Section {
+                    NavigationLink {
+                        SelfExplainedView()
+                    } label: {
+                        Text("Self Explained View")
+                    }
+                    
+                    NavigationLink {
+                        NSManagedObjectSubclassesView()
+                    } label: {
+                        Text("NSManaged Object Subclasses View")
+                    }
+                    NavigationLink {
+                        ConditionalNSManagedObjectContextView()
+                    } label: {
+                        Text("Conditional NSManaged Object Context View")
+                    }
+                } header: {
+                    Text("Day One")
+                        .font(.title)
                 }
-            } header: {
-                Text("Day One")
-                    .font(.title)
             }
         }
-        .padding()
     }
 }
 
