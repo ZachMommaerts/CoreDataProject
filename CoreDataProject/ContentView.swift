@@ -23,13 +23,31 @@ struct ContentView: View {
                     } label: {
                         Text("NSManaged Object Subclasses View")
                     }
+                    
                     NavigationLink {
                         ConditionalNSManagedObjectContextView()
                     } label: {
                         Text("Conditional NSManaged Object Context View")
                     }
+                    
+                    NavigationLink {
+                        CoreDataObjectConstraintsView()
+                    } label: {
+                        Text("Core Data Object Constraint View")
+                    }
                 } header: {
                     Text("Day One")
+                        .font(.title)
+                }
+                
+                Section {
+                    NavigationLink {
+                        NSPredicateFetchRequestView()
+                    } label: {
+                        Text("NSPredicate Fetch Request View")
+                    }
+                } header: {
+                    Text("Day Two")
                         .font(.title)
                 }
             }
