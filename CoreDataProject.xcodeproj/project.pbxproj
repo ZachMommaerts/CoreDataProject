@@ -13,6 +13,7 @@
 		418075222AEC305B003A062B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 418075212AEC305B003A062B /* Preview Assets.xcassets */; };
 		418075292AEC30D4003A062B /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418075282AEC30D4003A062B /* DataController.swift */; };
 		4180752C2AEC315E003A062B /* CoreDataProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4180752A2AEC315E003A062B /* CoreDataProject.xcdatamodeld */; };
+		418075302AEC36A4003A062B /* SelfExplainedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4180752F2AEC36A4003A062B /* SelfExplainedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		418075212AEC305B003A062B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		418075282AEC30D4003A062B /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		4180752B2AEC315E003A062B /* CoreDataProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataProject.xcdatamodel; sourceTree = "<group>"; };
+		4180752F2AEC36A4003A062B /* SelfExplainedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfExplainedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				4180751A2AEC3058003A062B /* CoreDataProjectApp.swift */,
 				4180751C2AEC3058003A062B /* ContentView.swift */,
+				4180752F2AEC36A4003A062B /* SelfExplainedView.swift */,
 				418075282AEC30D4003A062B /* DataController.swift */,
 				4180752A2AEC315E003A062B /* CoreDataProject.xcdatamodeld */,
 				4180751E2AEC305B003A062B /* Assets.xcassets */,
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4180751D2AEC3058003A062B /* ContentView.swift in Sources */,
+				418075302AEC36A4003A062B /* SelfExplainedView.swift in Sources */,
 				418075292AEC30D4003A062B /* DataController.swift in Sources */,
 				4180752C2AEC315E003A062B /* CoreDataProject.xcdatamodeld in Sources */,
 				4180751B2AEC3058003A062B /* CoreDataProjectApp.swift in Sources */,

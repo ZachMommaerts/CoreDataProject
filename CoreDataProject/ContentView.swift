@@ -10,10 +10,16 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Section {
+                NavigationLink {
+                    SelfExplainedView()
+                } label: {
+                    Text("Self Explained View")
+                }
+            } header: {
+                Text("Day One")
+                    .font(.title)
+            }
         }
         .padding()
     }
