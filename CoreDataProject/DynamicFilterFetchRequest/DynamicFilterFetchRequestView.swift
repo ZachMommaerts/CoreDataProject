@@ -10,9 +10,15 @@ import SwiftUI
 struct DynamicFilterFetchRequestView: View {
     @Environment(\.managedObjectContext) var moc
     @State private var lastNameFilter = "A"
+    
+    var sortDescriptors = [
+        SortDescriptor(\Singer.firstName),
+        SortDescriptor(\Singer.lastName)
+    ]
+    
     var body: some View {
         VStack {
-            FilteredList(filterKey: "lastName", filterValue: lastNameFilter) { (singer: Singer) in
+            FilteredList(sortDescriptors: sortDescriptors, filterKey: "lastName", filterType: .beginsWith, filterValue: lastNameFilter) { (singer: Singer) in
                 Text("\(singer.wrappedFirstName) \(singer.wrappedLastName)")
             }
             

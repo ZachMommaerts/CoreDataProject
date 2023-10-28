@@ -52,6 +52,12 @@ struct ContentView: View {
                     } label: {
                         Text("Dynamic Filter Fetch Request View")
                     }
+                    
+                    NavigationLink {
+                        OneToManyRelationshipsView()
+                    } label: {
+                        Text("One to Many Relationships View")
+                    }
                 } header: {
                     Text("Day Two")
                         .font(.title)
