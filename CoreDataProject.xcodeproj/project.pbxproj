@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		413619022AEC85AA001E322E /* DynamicFilterFetchRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413619012AEC85AA001E322E /* DynamicFilterFetchRequestView.swift */; };
+		413619052AEC8827001E322E /* Singer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413619032AEC8827001E322E /* Singer+CoreDataClass.swift */; };
+		413619062AEC8827001E322E /* Singer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413619042AEC8827001E322E /* Singer+CoreDataProperties.swift */; };
+		413619092AEC8983001E322E /* FilteredList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413619082AEC8983001E322E /* FilteredList.swift */; };
 		4180751B2AEC3058003A062B /* CoreDataProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4180751A2AEC3058003A062B /* CoreDataProjectApp.swift */; };
 		4180751D2AEC3058003A062B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4180751C2AEC3058003A062B /* ContentView.swift */; };
 		4180751F2AEC305B003A062B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4180751E2AEC305B003A062B /* Assets.xcassets */; };
@@ -23,6 +27,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		413619012AEC85AA001E322E /* DynamicFilterFetchRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicFilterFetchRequestView.swift; sourceTree = "<group>"; };
+		413619032AEC8827001E322E /* Singer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataClass.swift"; sourceTree = "<group>"; };
+		413619042AEC8827001E322E /* Singer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		413619082AEC8983001E322E /* FilteredList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredList.swift; sourceTree = "<group>"; };
 		418075172AEC3058003A062B /* CoreDataProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4180751A2AEC3058003A062B /* CoreDataProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataProjectApp.swift; sourceTree = "<group>"; };
 		4180751C2AEC3058003A062B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,6 +58,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		413619072AEC8835001E322E /* DynamicFilterFetchRequest */ = {
+			isa = PBXGroup;
+			children = (
+				413619012AEC85AA001E322E /* DynamicFilterFetchRequestView.swift */,
+				413619082AEC8983001E322E /* FilteredList.swift */,
+				413619042AEC8827001E322E /* Singer+CoreDataProperties.swift */,
+				413619032AEC8827001E322E /* Singer+CoreDataClass.swift */,
+			);
+			path = DynamicFilterFetchRequest;
+			sourceTree = "<group>";
+		};
 		4180750E2AEC3058003A062B = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +95,7 @@
 				418075392AEC4151003A062B /* ConditionalNSManagedObjectContextView.swift */,
 				4180753D2AEC468F003A062B /* CoreDataObjectUniquenessConstraint */,
 				4180753E2AEC791F003A062B /* NSPredicateFetchRequestView.swift */,
+				413619072AEC8835001E322E /* DynamicFilterFetchRequest */,
 				4180752A2AEC315E003A062B /* CoreDataProject.xcdatamodeld */,
 				4180751E2AEC305B003A062B /* Assets.xcassets */,
 				418075202AEC305B003A062B /* Preview Content */,
@@ -182,9 +202,13 @@
 			files = (
 				418075352AEC3D82003A062B /* Movie+CoreDataClass.swift in Sources */,
 				4180751D2AEC3058003A062B /* ContentView.swift in Sources */,
+				413619092AEC8983001E322E /* FilteredList.swift in Sources */,
+				413619052AEC8827001E322E /* Singer+CoreDataClass.swift in Sources */,
 				4180753F2AEC791F003A062B /* NSPredicateFetchRequestView.swift in Sources */,
+				413619022AEC85AA001E322E /* DynamicFilterFetchRequestView.swift in Sources */,
 				418075302AEC36A4003A062B /* SelfExplainedView.swift in Sources */,
 				418075322AEC3C14003A062B /* NSManagedObjectSubclassesView.swift in Sources */,
+				413619062AEC8827001E322E /* Singer+CoreDataProperties.swift in Sources */,
 				418075362AEC3D82003A062B /* Movie+CoreDataProperties.swift in Sources */,
 				4180753A2AEC4151003A062B /* ConditionalNSManagedObjectContextView.swift in Sources */,
 				4180753C2AEC42C6003A062B /* CoreDataObjectConstraintsView.swift in Sources */,

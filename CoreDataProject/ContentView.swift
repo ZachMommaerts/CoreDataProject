@@ -46,6 +46,12 @@ struct ContentView: View {
                     } label: {
                         Text("NSPredicate Fetch Request View")
                     }
+                    
+                    NavigationLink {
+                        DynamicFilterFetchRequestView()
+                    } label: {
+                        Text("Dynamic Filter Fetch Request View")
+                    }
                 } header: {
                     Text("Day Two")
                         .font(.title)
